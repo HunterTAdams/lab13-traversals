@@ -139,7 +139,9 @@ public class BinarySearchTree<T extends Comparable<T>> {
 		inOrderRecurse(root); 
 	}
 	
-	public void inOrderRecurse(BSTNode<T> node) {
+	public void inOrderRecurse(BSTNode<T> node) 
+	{
+		System.out.println("InOrder test commit");
 		
 	}
 	//Traverse the tree in an inorder fashion but using a stack
